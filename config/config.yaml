@@ -1,0 +1,26 @@
+defaults:
+  - _self_
+  - experiment: base
+
+# Trace Generation Parameters
+trace:
+  length: 1000  # L_trace
+  n_traces: 1000 # Number of traces to generate
+  tailroom: 100 # Padding at the end
+
+# Jitter Parameters
+jitter:
+  max_jitter: 30 # J
+
+# Noise Parameters
+noise:
+  level: 1.0 # Noise level
+  color_factor: 0.5 # AR(1) coefficient for colored noise
+  baseline_drift: 0.1 # Magnitude of baseline drift
+
+# Attack Parameters
+attack:
+  target_byte: 0 # Byte to attack
+  
+# Experiment settings
+seed: 42

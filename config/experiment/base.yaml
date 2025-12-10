@@ -1,0 +1,9 @@
+# Base experiment configuration
+# Override these in specific experiment files
+
+trace:
+  length: 500
+  n_traces: 500
+
+jitter:
+  max_jitter: 0

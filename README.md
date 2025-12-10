@@ -31,7 +31,7 @@ Prerequisites: Python 3.9+
     source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
     # Install packages
-    pip install numpy scipy pandas matplotlib torch tqdm hydra-core pytest
+    pip install -r requirements.txt
     ```
 
 ## 🏃‍♂️ Usage
